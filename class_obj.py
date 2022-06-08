@@ -31,7 +31,7 @@ class B(A):
     def __init__(self, x) -> None:
         super().__init__()
         self.x = x
-
+        
     def myFunc2(self):
         print("my func2 exec")
 
